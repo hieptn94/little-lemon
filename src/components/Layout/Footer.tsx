@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { SiFacebook, SiInstagram, SiX } from "@icons-pack/react-simple-icons";
+
 import logo from "/footer-logo.svg";
 
 export default function Footer() {
