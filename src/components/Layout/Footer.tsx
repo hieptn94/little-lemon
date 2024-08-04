@@ -5,7 +5,7 @@ import logo from "/footer-logo.svg";
 
 export default function Footer() {
   return (
-    <footer className="w-full py-12 flex justify-center bg-primary-dark-green text-white">
+    <footer className="w-full py-12 flex justify-center bg-dark-green-1 text-white">
       <ul className="w-desktop flex gap-8">
         <li>
           <img src={logo} alt="little lemon logo" className="w-20" />
@@ -14,32 +14,32 @@ export default function Footer() {
           <h3 className="font-bold">Navigation</h3>
           <ul className="flex flex-col">
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/">
+              <Link className="hover:text-yellow-1 transition-all" to="/">
                 Home
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/" hash="about">
+              <Link className="hover:text-yellow-1 transition-all" to="/" hash="about">
                 About
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/" hash="menu">
+              <Link className="hover:text-yellow-1 transition-all" to="/" hash="menu">
                 Menu
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/reservations">
+              <Link className="hover:text-yellow-1 transition-all" to="/reservations">
                 Reservations
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/" hash="order-online">
+              <Link className="hover:text-yellow-1 transition-all" to="/" hash="order-online">
                 Order Online
               </Link>
             </li>
             <li>
-              <Link className="hover:text-primary-yellow transition-all" to="/" hash="login">
+              <Link className="hover:text-yellow-1 transition-all" to="/" hash="login">
                 Login
               </Link>
             </li>
@@ -50,13 +50,13 @@ export default function Footer() {
           <ul className="flex flex-col">
             <li>123 An Example Street, Chicago, IL 60647, US</li>
             <li>
-              <a className="hover:text-primary-yellow transition-all" href="tel:(+1) 234. 567. 89">
+              <a className="hover:text-yellow-1 transition-all" href="tel:(+1) 234. 567. 89">
                 (+1) 234. 567. 89
               </a>
             </li>
             <li>
               <a
-                className="hover:text-primary-yellow transition-all"
+                className="hover:text-yellow-1 transition-all"
                 href="mailto:littlelemon@example.com"
               >
                 littlelemon@example.com
@@ -70,7 +70,7 @@ export default function Footer() {
             <li>
               <a
                 aria-label="facebook"
-                className="hover:text-primary-yellow transition-all"
+                className="hover:text-yellow-1 transition-all"
                 href="https://facebook.com"
               >
                 <SiFacebook />
@@ -79,7 +79,7 @@ export default function Footer() {
             <li>
               <a
                 aria-label="instagram"
-                className="hover:text-primary-yellow transition-all"
+                className="hover:text-yellow-1 transition-all"
                 href="https://instagram.com"
               >
                 <SiInstagram />
@@ -88,7 +88,7 @@ export default function Footer() {
             <li>
               <a
                 aria-label="x"
-                className="hover:text-primary-yellow transition-all"
+                className="hover:text-yellow-1 transition-all"
                 href="https://x.com"
               >
                 <SiX />

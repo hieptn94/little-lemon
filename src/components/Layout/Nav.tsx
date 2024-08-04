@@ -5,32 +5,32 @@ export default function Nav() {
     <nav>
       <ul className="flex items-center gap-6 text-lg">
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/">
+          <Link className="hover:text-dark-green-1 transition-all" to="/">
             Home
           </Link>
         </li>
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/" hash="about">
+          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="about">
             About
           </Link>
         </li>
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/" hash="menu">
+          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="menu">
             Menu
           </Link>
         </li>
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/reservations">
+          <Link className="hover:text-dark-green-1 transition-all" to="/reservations">
             Reservations
           </Link>
         </li>
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/" hash="order-online">
+          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="order-online">
             Order Online
           </Link>
         </li>
         <li>
-          <Link className="hover:text-primary-dark-green transition-all" to="/" hash="login">
+          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="login">
             Login
           </Link>
         </li>
