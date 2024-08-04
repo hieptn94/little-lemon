@@ -23,9 +23,13 @@ describe("<Footer />", () => {
       /^order online$/i,
       /^login$/i,
     ];
-    navLinks.forEach((link) => expect(screen.getByRole("link", { name: link })).toBeVisible());
+    navLinks.forEach((link) =>
+      expect(screen.getByRole("link", { name: link })).toBeVisible(),
+    );
 
     const mediaLinks = [/^facebook$/i, /^instagram$/i, /^x$/i];
-    mediaLinks.forEach((link) => expect(screen.getByRole("link", { name: link })).toBeVisible());
+    mediaLinks.forEach((link) =>
+      expect(screen.getByRole("link", { name: link })).toBeVisible(),
+    );
   });
 });

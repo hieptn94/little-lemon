@@ -10,27 +10,46 @@ export default function Nav() {
           </Link>
         </li>
         <li>
-          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="about">
+          <Link
+            className="hover:text-dark-green-1 transition-all"
+            to="/"
+            hash="about"
+          >
             About
           </Link>
         </li>
         <li>
-          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="menu">
+          <Link
+            className="hover:text-dark-green-1 transition-all"
+            to="/"
+            hash="menu"
+          >
             Menu
           </Link>
         </li>
         <li>
-          <Link className="hover:text-dark-green-1 transition-all" to="/reservations">
+          <Link
+            className="hover:text-dark-green-1 transition-all"
+            to="/reservations"
+          >
             Reservations
           </Link>
         </li>
         <li>
-          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="order-online">
+          <Link
+            className="hover:text-dark-green-1 transition-all"
+            to="/"
+            hash="order-online"
+          >
             Order Online
           </Link>
         </li>
         <li>
-          <Link className="hover:text-dark-green-1 transition-all" to="/" hash="login">
+          <Link
+            className="hover:text-dark-green-1 transition-all"
+            to="/"
+            hash="login"
+          >
             Login
           </Link>
         </li>

@@ -1,9 +1,11 @@
-import HeroSection from "./HeroSection";
+import Hero from "./Hero";
+import Highlights from "./Highlights";
 
 export default function Home() {
   return (
     <>
-      <HeroSection />
+      <Hero />
+      <Highlights />
     </>
   );
 }
