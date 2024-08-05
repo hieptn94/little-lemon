@@ -13,7 +13,8 @@
     "skipLibCheck": true,
     "types": [
       "vitest/globals",
-      "@testing-library/jest-dom"
+      "@testing-library/jest-dom",
+      "vite-plugin-svgr/client"
     ],
     /* Bundler mode */
     "moduleResolution": "bundler",
