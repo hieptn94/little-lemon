@@ -47,7 +47,7 @@ const testimonials: Testimonial[] = [
 
 export default function Testimonials() {
   return (
-    <section className="flex justify-center bg-dark-green-1">
+    <section id="testimonials" className="flex justify-center bg-dark-green-1">
       <div className="w-desktop py-12 flex gap-8 items-stretch">
         {testimonials.map((testimonial) => (
           <div key={testimonial.id} className="flex-1">

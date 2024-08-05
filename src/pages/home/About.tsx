@@ -3,7 +3,7 @@ import photo2 from './mario-and-adrian-b.jpg'
 
 export default function About() {
   return (
-    <section className="flex justify-center">
+    <section id="about" className="flex justify-center">
       <div className="w-desktop py-12 flex gap-16 items-stretch">
         <article className="flex flex-col gap-8 flex-1 justify-center">
           <header>

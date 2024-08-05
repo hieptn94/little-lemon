@@ -4,7 +4,7 @@ import restaurantPhoto from "./restaurant.jpg";
 
 export default function Hero() {
   return (
-    <section className="flex justify-center bg-dark-green-1">
+    <section className="flex justify-center bg-dark-green-1 pt-20">
       <div className="flex w-desktop py-12 gap-12">
         <article className="flex-1">
           <header>

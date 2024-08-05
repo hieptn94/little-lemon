@@ -34,7 +34,7 @@ const dishes: Dish[] = [
 
 export default function Highlights() {
   return (
-    <section className="flex justify-center">
+    <section id="menu" className="flex justify-center">
       <div className="w-desktop py-12">
         <section className="flex flex-col gap-10">
           <header className="flex justify-between items-center">
