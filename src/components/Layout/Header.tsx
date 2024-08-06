@@ -25,10 +25,10 @@ export default function Header() {
   return (
     <header
       className={clsx(
-        "w-full h-20 flex justify-center fixed z-10 bg-white top-0 transition-all duration-500",
+        "w-full h-20 flex justify-center fixed z-10 bg-white transition-all",
         {
           "top-0": !hide,
-          "-top-[1000px]": hide,
+          "-top-20": hide,
         },
       )}
     >
