@@ -1,6 +1,6 @@
-import { Button } from "@/components/ui";
 import { Dish } from "@/domain/dish";
 import DishCard from "./DishCard";
+import Button from "./Button";
 import greekSaladPhoto from "./greek-salad.jpg";
 import bruchettaPhoto from "./bruchetta.svg";
 import lemonDessertPhoto from "./lemon-dessert.jpg";
@@ -39,7 +39,7 @@ export default function Highlights() {
         <section className="flex flex-col gap-10">
           <header className="flex justify-between items-center">
             <h1 className="text-4xl">Specials</h1>
-            <Button variant="yellow">Online Menu</Button>
+            <Button>Online Menu</Button>
           </header>
           <section className="flex gap-6 items-stretch">
             {dishes.map((dish) => (

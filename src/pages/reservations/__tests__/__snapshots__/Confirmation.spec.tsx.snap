@@ -1,0 +1,51 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`<Confirmation /> > should render correctly 1`] = `
+<div>
+  <section
+    class="flex flex-col items-center text-dark-green-1 gap-6"
+  >
+    <h1
+      class="font-bold text-2xl"
+    >
+      Thank you!
+    </h1>
+    <p
+      class="text-center"
+    >
+      Dear 
+      Mr. 
+      Alex
+      ,
+      <br />
+      Your reservation for 
+      4
+       guests on 
+      2024-08-11
+       
+      at 
+      17:30
+       is confirmed.
+    </p>
+    <p
+      class="text-center"
+    >
+      We look forward to welcoming you to Little Lemon and hope you enjoy your meal.
+    </p>
+    <footer>
+      <a
+        aria-current="page"
+        class="active"
+        data-status="active"
+        href="/"
+      >
+        <button
+          class="transition-colors rounded h-10 px-4 shadow-lg disabled:cursor-none bg-dark-green-1 text-white hover:bg-dark-green-2 active:bg-dark-green-3 disabled:bg-gray-50"
+        >
+          Explore more
+        </button>
+      </a>
+    </footer>
+  </section>
+</div>
+`;

@@ -1,7 +1,7 @@
 import clsx from "clsx";
 
 type Props = {
-  variant: "yellow" | "dark-green";
+  variant: "primary" | "secondary";
 } & React.ButtonHTMLAttributes<HTMLButtonElement>;
 
 export default function Button({ variant, className, ...rest }: Props) {
@@ -9,11 +9,12 @@ export default function Button({ variant, className, ...rest }: Props) {
     <button
       {...rest}
       className={clsx(
-        "transition-colors rounded h-10 px-4 shadow-lg",
+        "transition-colors rounded h-10 px-4 shadow-lg disabled:cursor-none",
         {
-          "bg-yellow-1 text-gray-900 hover:bg-yellow-2 active:bg-yellow-3": variant === "yellow",
-          "bg-dark-green-1 text-white hover:bg-dark-green-2 active:bg-dark-green-3":
-            variant === "dark-green",
+          "bg-dark-green-1 text-white hover:bg-dark-green-2 active:bg-dark-green-3 disabled:bg-gray-50":
+            variant === "primary",
+          "text-dark-green-1 border-2 border-dark-green-1 hover:text-dark-green-2 hover:border-dark-green-2 active:text-dark-green-3 active:border-dark-green-3 disabled:bg-gray-50":
+            variant === "secondary",
         },
         className,
       )}

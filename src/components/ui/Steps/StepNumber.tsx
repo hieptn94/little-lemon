@@ -1,7 +1,9 @@
 import clsx from "clsx";
 import { useIsActive } from "./context";
 
-export default function StepNumber(props: React.HTMLAttributes<HTMLSpanElement>) {
+export default function StepNumber(
+  props: React.HTMLAttributes<HTMLSpanElement>,
+) {
   const isActive = useIsActive();
   return (
     <span

@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Button } from "@/components/ui";
+import Button from "./Button";
 import restaurantPhoto from "./restaurant.jpg";
 
 export default function Hero() {
@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
           <footer className="mt-8">
             <Link to="/reservations">
-              <Button variant="yellow">Reserve a Table</Button>
+              <Button>Reserve a Table</Button>
             </Link>
           </footer>
         </article>

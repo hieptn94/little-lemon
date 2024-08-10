@@ -4,18 +4,25 @@ import { useFieldID } from "./context";
 
 type Props = {
   hasError?: boolean;
+  value: number;
+  onChange: (value: number) => void;
 } & React.InputHTMLAttributes<HTMLInputElement>;
 
-const TextInput = React.forwardRef(function TextInput(
-  { hasError, ...rest }: Props,
+const NumberInput = React.forwardRef(function NumberInput(
+  { hasError, value, onChange, ...rest }: Props,
   ref: React.ForwardedRef<HTMLInputElement>,
 ) {
   const id = useFieldID();
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
+    e.preventDefault();
+    onChange(Number(e.target.value));
+  };
   return (
     <input
       {...rest}
       ref={ref}
-      type="text"
+      type="number"
       id={id}
       className={clsx(
         "bg-gray-200 border-2 border-gray-200 rounded h-10 px-2 transition-all outline-none",
@@ -26,8 +33,10 @@ const TextInput = React.forwardRef(function TextInput(
             hasError,
         },
       )}
+      value={value}
+      onChange={handleChange}
     />
   );
 });
 
-export default TextInput;
+export default NumberInput;

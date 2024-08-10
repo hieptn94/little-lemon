@@ -11,7 +11,8 @@ describe("<TestimonialCard />", () => {
         avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
       },
       rating: 5,
-      content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
+      content:
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
     };
     render(<TestimonialCard testimonial={testimonial} />);
 
@@ -20,10 +21,9 @@ describe("<TestimonialCard />", () => {
         name: testimonial.author.name,
       }),
     ).toBeVisible();
-    expect(screen.getByRole("img", { name: testimonial.author.name })).toHaveAttribute(
-      "src",
-      testimonial.author.avatar,
-    );
+    expect(
+      screen.getByRole("img", { name: testimonial.author.name }),
+    ).toHaveAttribute("src", testimonial.author.avatar);
     expect(screen.getByText(testimonial.content)).toBeVisible();
   });
 });

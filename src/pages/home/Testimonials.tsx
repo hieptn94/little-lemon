@@ -10,7 +10,8 @@ const testimonials: Testimonial[] = [
       avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
     },
     rating: 5,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
   },
   {
     id: Math.random().toString(),
@@ -31,7 +32,8 @@ const testimonials: Testimonial[] = [
       avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
     },
     rating: 4,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
   },
   {
     id: Math.random().toString(),
@@ -41,7 +43,8 @@ const testimonials: Testimonial[] = [
       avatar: "https://mdbcdn.b-cdn.net/img/new/avatars/2.webp",
     },
     rating: 4,
-    content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
+    content:
+      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus porta.",
   },
 ];
 

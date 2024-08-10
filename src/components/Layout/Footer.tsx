@@ -20,27 +20,46 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <Link className="hover:text-yellow-1 transition-all" to="/" hash="about">
+              <Link
+                className="hover:text-yellow-1 transition-all"
+                to="/"
+                hash="about"
+              >
                 About
               </Link>
             </li>
             <li>
-              <Link className="hover:text-yellow-1 transition-all" to="/" hash="menu">
+              <Link
+                className="hover:text-yellow-1 transition-all"
+                to="/"
+                hash="menu"
+              >
                 Menu
               </Link>
             </li>
             <li>
-              <Link className="hover:text-yellow-1 transition-all" to="/reservations">
+              <Link
+                className="hover:text-yellow-1 transition-all"
+                to="/reservations"
+              >
                 Reservations
               </Link>
             </li>
             <li>
-              <Link className="hover:text-yellow-1 transition-all" to="/" hash="order-online">
+              <Link
+                className="hover:text-yellow-1 transition-all"
+                to="/"
+                hash="order-online"
+              >
                 Order Online
               </Link>
             </li>
             <li>
-              <Link className="hover:text-yellow-1 transition-all" to="/" hash="login">
+              <Link
+                className="hover:text-yellow-1 transition-all"
+                to="/"
+                hash="login"
+              >
                 Login
               </Link>
             </li>
@@ -52,7 +71,10 @@ export default function Footer() {
             <ul className="flex flex-col">
               <li>123 An Example Street, Chicago, IL 60647, US</li>
               <li>
-                <a className="hover:text-yellow-1 transition-all" href="tel:(+1) 234. 567. 89">
+                <a
+                  className="hover:text-yellow-1 transition-all"
+                  href="tel:(+1) 234. 567. 89"
+                >
                   (+1) 234. 567. 89
                 </a>
               </li>
@@ -89,7 +111,11 @@ export default function Footer() {
               </a>
             </li>
             <li>
-              <a aria-label="x" className="hover:text-yellow-1 transition-all" href="https://x.com">
+              <a
+                aria-label="x"
+                className="hover:text-yellow-1 transition-all"
+                href="https://x.com"
+              >
                 <X className="w-5 h-5 fill-white transition-all hover:fill-yellow-1" />
               </a>
             </li>
